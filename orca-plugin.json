@@ -1,16 +1,22 @@
 {
-  "manifestVersion": 1,
+  "manifestVersion": 2,
   "id": "orca-solarized-terminal",
   "publisher": "stablyai",
   "name": "Solarized Terminal",
-  "version": "1.0.0",
+  "version": "2.0.0",
+  "execution": "data",
   "description": "Solarized Dark terminal colors packaged for Orca.",
   "repository": "https://github.com/stablyai/orca-solarized-terminal",
-  "engines": { "orca": ">=1.4.0" },
-  "pluginApi": 1,
+  "engines": {
+    "orca": ">=1.4.233"
+  },
   "contributes": {
     "terminalThemes": [
-      { "id": "solarized-dark", "label": "Solarized Dark", "path": "terminal/solarized-dark.json" }
+      {
+        "id": "solarized-dark",
+        "label": "Solarized Dark",
+        "path": "terminal/solarized-dark.json"
+      }
     ]
   },
   "capabilities": []
